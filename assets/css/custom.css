@@ -31,6 +31,14 @@ h4{
     font-size: 18px;
 }
 
+.btn {
+    font-weight: bold;
+}
+.btn-danger {
+    background-color: #dd5638;
+    border-collapse: collapse;
+}
+
 /*===Hero====*/
 
 #hero {
@@ -40,6 +48,11 @@ h4{
     color: #fff;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+}
+
+#hero article{
+    width: 100%;
+    text-align: center;
 }
 
 #hero .hero-text{
@@ -82,3 +95,11 @@ h4{
     margin-left: -35px;
 }
 
+#price-timeline h4 {
+    margin: 0 0 10px;
+}
+#price-timeline h4 small {
+    color: white;
+    font-weight: bold;
+    display: block;
+}
